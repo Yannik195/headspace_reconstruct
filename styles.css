@@ -1,0 +1,273 @@
+body {
+  background-color: #edeef5;
+  margin: 8px 16px;
+  font-family: "Nunito", sans-serif;
+  color: #333;
+}
+
+h1,
+h2 {
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 0 12px;
+  border: 0;
+  height: 1px;
+  background: LightGray;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 16px 16px;
+  max-width: 48rem;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .fa-stack {
+  position: absolute;
+  margin: 12px 6px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-height: 24rem;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.image {
+  background-color: tomato;
+  width: 24rem;
+  height: 12rem;
+  border-radius: 6px;
+}
+
+.content {
+  padding: 0 12px;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  color: #666666;
+  font-size: 0.8rem;
+}
+
+.description i {
+  padding-right: 8px;
+}
+
+.info p {
+}
+
+.teacher {
+  padding: 0 12px;
+}
+
+.teacher article {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.teacher img {
+    border-radius: 50%;
+    width: 2.8rem;
+    height: 2.8rem;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    margin-right: 12px;
+}
+
+.teacher button {
+  width: 100%;
+  background: none;
+  border-radius: 50px;
+  border: 2px solid LightGray;
+}
+
+.teacher .active {
+  background: #333;
+  border: 2px solid #333;
+  color: #fff;
+}
+
+.teacher .name {
+  font-size: 1rem;
+}
+
+.sessions {
+  padding: 12px 12px;
+}
+.sessions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 0.25fr));
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.session-done {
+  color: MediumSeaGreen;
+}
+
+.session-current {
+  color: DodgerBlue;
+}
+
+.session-locked {
+  color: Gainsboro;
+}
+
+.download {
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.techniques {
+  padding: 0 12px;
+}
+
+.techniques .list {
+  padding: 0 12px;
+}
+
+.techniques .left {
+  display: flex;
+  align-items: center;
+}
+
+.techniques .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 12px 0;
+}
+
+.techniques .info i,
+.techniques .info span {
+  font-size: 0.8rem;
+}
+
+.techniques .info i {
+  margin-left: 2px;
+  margin-right: 8px;
+}
+
+.techniques img {
+  height: 5rem;
+  width: 8rem;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.related {
+  padding: 0 12px;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+.related img {
+  max-width: 100%;
+  height: 12rem;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 6px;
+}
