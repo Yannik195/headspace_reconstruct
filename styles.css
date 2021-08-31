@@ -262,7 +262,7 @@ input:checked + .slider:before {
 }
 
 .techniques img {
-  width: clamp(100px, 40%, 240px);
+  width: clamp(80px, 40%, 240px);
   aspect-ratio: 16/9;
   border-radius: 6px;
   object-fit: cover;
@@ -281,7 +281,7 @@ input:checked + .slider:before {
 }
 
 .related img {
-  width: clamp(100px, 100%, 600px);
+  width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 6px;
